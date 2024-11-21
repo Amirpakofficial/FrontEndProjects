@@ -1,0 +1,46 @@
+App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.calculator {
+  width: 300px;
+  margin: 50px auto;
+  background: #524949;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  font-size: 24px;
+  text-align: right;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  
+}
+
+.result {
+  font-size: 18px;
+  color: #00e676;
+}
+
+.buttons button {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  font-size: 18px;
+  border: none;
+  background: #6200ea;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #3700b3;
+}
